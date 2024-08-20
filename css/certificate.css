@@ -1,5 +1,5 @@
 #certificates {
-    background-color: #efeaea;
+    background-color: rgb(247,245,245);
     padding: 100px 0;
   }
   
@@ -12,9 +12,9 @@
   .certificate {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(14,2,2);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(205,15, 15, 0.1);
   }
   
   .certificate img {
@@ -31,7 +31,7 @@
   
   .certificate p {
     font-size: 16px;
-    color: #666;
+    color: black;
   }
   
   .certificate p span {
