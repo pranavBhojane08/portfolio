@@ -1,0 +1,97 @@
+/* styles.css */
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+} */
+
+/* header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #4CAF50;
+    color: white;
+} */
+
+h1 {
+    margin: 0;
+}
+
+#projects {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.project {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.project p {
+    margin: 0 0 1rem 0;
+    line-height: 1.6;
+    color: #666;
+}
+
+.project a {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    border: 1px solid #4CAF50;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 2rem;
+} */
+
